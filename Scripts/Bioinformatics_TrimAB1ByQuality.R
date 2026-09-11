@@ -51,7 +51,7 @@ trim_sanger <- function(ab1_file, quality_scores, min_quality = 20, window_size 
 
 ##### Example of the function ##################################################
 # Get sequence data
-filename <- "G:/My Drive/_PhD/Research/Seagrass in Palau/Genetics/2026_Sequences_18S_SSU/Sangar_samples_Palau_and_M2B2/JK_902937-1001_40_JK_003_A01.ab1"
+filename <- "Data/Genetics/JK_902937-1001_40_JK_003_A01.ab1"
 ab1_file <- readsangerseq(filename)
 
 # Obtain quality scores
@@ -224,12 +224,12 @@ process_all_ab1_files <- function(directory,
 ##### RUN THE BATCH PROCESSING #####
 
 # Set your directory
-ab1_directory <- "G:/My Drive/_PhD/Research/Seagrass in Palau/Genetics/2026_Sequences_18S_SSU/Sangar_samples_Palau_and_M2B2"
+ab1_directory <- "Data/Genetics/Sangar_samples_Palau_and_M2B2"
 
 # Process all files
 results <- process_all_ab1_files(
   directory = ab1_directory,
-  output_fasta = "G:/My Drive/_PhD/Research/Seagrass in Palau/Genetics/2026_Sequences_18S_SSU/Trimming_2026/trimmed_sequences.fasta",
+  output_fasta = "trimmed_sequences.fasta",
   min_quality = 40,
   window_size = 20,
   generate_report = TRUE

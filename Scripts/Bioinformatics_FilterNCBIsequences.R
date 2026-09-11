@@ -7,7 +7,7 @@ library(tidyverse)
 library(seqinr)
 
 ##### Load data ################################################################
-fasta_file <- read.fasta(file = "G:/My Drive/_PhD/Research/Seagrass in Palau/Genetics/Extracting Labyrinthula 18S from NCBI/Search_1_combo.fasta.txt")
+fasta_file <- read.fasta(file = "Data/Genetics/Search_1_combo.fasta.txt")
 
 ##### Filter out duplicates ####################################################
 # check for duplicated names
@@ -45,6 +45,6 @@ length(fasta_final)
 ##### Save the filtered sequences ##############################################
 write.fasta(sequences = fasta_final, 
             names = names(fasta_final),
-            file.out = "G:/My Drive/_PhD/Research/Seagrass in Palau/Genetics/Extracting Labyrinthula 18S from NCBI/Search_1_filtered.fasta")
+            file.out = "Data/Genetics/Search_1_filtered.fasta")
 
 # Next step is to align and then calculate how similar they are to remove those with >= 99% similarity 
