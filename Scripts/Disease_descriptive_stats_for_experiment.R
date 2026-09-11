@@ -6,10 +6,10 @@
 library(tidyverse)
 
 ##### Load data 
-kochs_raw <- read.csv("G:/My Drive/_PhD/Research/Seagrass in Palau/Field Data/Experiments/2025_KochsPostulates/exp koch postulate 2025-12-11 16_23_33.csv")
-exp1_raw <- read.csv("G:/My Drive/_PhD/Research/Seagrass in Palau/Field Data/Experiments/2025_Herbivory_lesions/Temp and light data/Exp-1 2025-04-28 21_37_38 PDT (Data PDT).csv") |> 
+kochs_raw <- read.csv("Data/Hobologgers/exp koch postulate 2025-12-11 16_23_33.csv")
+exp1_raw <- read.csv("Data/Hobologgers/Exp-1 2025-04-28 21_37_38 PDT (Data PDT).csv") |> 
   mutate(sensor = "1")
-exp2_raw <- read.csv("G:/My Drive/_PhD/Research/Seagrass in Palau/Field Data/Experiments/2025_Herbivory_lesions/Temp and light data/Exp-2 2025-04-28 21_32_54 PDT (Data PDT).csv") |> 
+exp2_raw <- read.csv("Data/Hobologgers/Exp-2 2025-04-28 21_32_54 PDT (Data PDT).csv") |> 
   mutate(sensor = "2")
 
 ##### Clean data ###############################################################

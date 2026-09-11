@@ -1,0 +1,21 @@
+﻿Paper,Last name and Year,Year_sampled,Country,Region_state,Location,Lat,Long,Species,Notes,This_Study
+https://doi.org/10.1094/PDIS-11-25-2265-PDN,Lin et al. 2026,2024,Guam,Hagåtña Bay,Hagåtña Bay,13.48405754,144.7681286,Enhalus acoroides,First confirmed study of SWD in Micronesia ,0
+https://li01.tci-thaijo.org/index.php/JFE/article/view/265907,Wimanhaemin et al. 2025,2024,Thailand,Phuket,Pa Khlok Beach,8.033572,98.417935,Enhalus acoroides,First confirmed study of SWD in Thailand,0
+https://doi.org/10.1016/j.plaphy.2011.06.006,Trevathan et al. 2011,2011,United States,Florida,Indian River Lagoon,27.783,-80.516,Thalassia testudinum,"Can't find additional information on T. testudinum if SWD was tested beforehand, but this does create lesions with Laby…. So going with this paper",0
+https://doi.org/10.1111/jeu.12387,Sullivan et al. 2016,2015,Australia,Victoria,Port Phillip Bay,-38.140231,144.713504,"Zostera mulleri, Halophila ovalis, Heterozostera nigricaulis, Posidonia australis",Lat and lon taken from Indented Head (middle of three sites),0
+https://doi.org/10.1111/jeu.12387,Sullivan et al. 2016,2014,Australia,New South Wales,Sydney Region,-33.587723,151.323617,"Zostera mulleri, Halophila ovalis, Heterozostera nigricaulis, Posidonia australis",Lat and lon taken from Palm Beach (site 5 of 11 in this region),0
+https://doi.org/10.1007/s12237-011-9416-4 ,Neus Garcias-Bonet et al. 2011,2006,Spain,Balearic Islands,Various,39.523296,2.54046,"Posidonia oceanica, Cymodocea nodosa, and Zostera noltii","18 different meadows, lat and lon taken from Mallorca, Palmanova, near the center of the map they provide",0
+https://doi.org/10.3354/dao016073,Short et al. 1993,1993,Japan,Various,Various,35.164689,139.618538,"Zostera marina, Zostera japonica, Z. caulescens ",From Koajiro Bay (only location I can find from the paper),0
+https://doi.org/10.2307/1541701,Short et al. 1987,1986,United States,Washington ,Puget Sound,47.727549,-122.460442,Zostera marina,One of the first papers finding that laby causes SWD,0
+https://doi.org/10.2307/1541701,Short et al. 1987,1986,United States,New Hampshire,Great Bay,43.069956,-70.876647,Zostera marina,One of the first papers finding that laby causes SWD,0
+https://doi.org/10.2307/1541701,Short et al. 1987,1986,United States,North Carolina,Beaufort,34.694674,-76.667372,Zostera marina,One of the first papers finding that laby causes SWD,0
+https://doi.org/10.1094/PDIS-12-20-2751-PDN,Lee et al. 2021,2013,South Korea,Gyeongnam Province,Namhae,34.844035,127.91752,Zostera marina,Hard to find actual location,0
+https://doi.org/10.1080/00275514.1991.12025994 ,Muehlstein et al. 1991,1991,United States,"San Juan Island, Washington",Wescott Bay,48.599148,-123.146872,Zostera marina,,0
+https://doi.org/10.1016/j.mycres.2009.08.002,Douhan et al. 2009,2003,United States,Arizona,Various,33.461933,-112.071156,"Poa trivialis, Lolium perenne","Locations: Lake Havasu, Goodyear, Phoenix, Rio Verde,Yuma, Scottsdale,  Tuscon, Buckeye, ",0
+https://doi.org/10.1016/j.mycres.2009.08.002,Douhan et al. 2009,2009,United States,South Carolina,,34.000265,-81.035802,Poa trivialis,,0
+https://doi.org/10.1016/j.mycres.2009.08.002,Douhan et al. 2009,2009,United States,California,Various,36.566905,-121.947321,Poa annua,"Locations: Santee, Pebble beach, Camarillo, Rolling Hills Estates, Riverside, Newport Beach, ",0
+https://doi.org/10.1016/j.mycres.2009.08.002,Douhan et al. 2009,2009,Spain,Murica,,37.991746,-1.13084,Agrostis palustris,,0
+https://doi.org/10.1016/j.mycres.2009.08.002,Douhan et al. 2009,2009,United Kingdom,Scotland,,56.573739,-4.341235,Agrostis spp.,,0
+https://doi.org/10.1007/s12237-016-0087-z ,Martin et al. 2016,2006,United States,Virginia,Chesapeake Bay,37.084488,-75.976381,Zostera marina,"For Martin et al, I looked at each of the pathogenic strains and cross referenced if we already had a strain from that location (specific region/state), if so I kept the one that was published in a different paper",0
+https://doi.org/10.3354/dao03382 ,Yoshioka et al. 2019,2017,United States,Oregon,South Slough,43.281789,-124.321919,Zostera marina,,0
+,This Study,2025,Palau,Ngemai,Ngiwal Conservation Area,7.52973,134.62893,Thalassia hemprichii,,1

@@ -29,42 +29,8 @@ exp(1.4663)/(1 + exp(1.4663)) # Probability
 
 anova_test <- car::Anova(m2, type = "III")
 car::Anova(m2, type = "II")
+
 ##### Plotting #################################################################
-
-plot_exp <- exp_data %>% 
-  group_by(Type) %>% 
-  summarize(proportion_disease = sum(Disease)/n()) %>% 
-  mutate(health = c("Healthy", "Healthy", "Lesioned", "Lesioned"),
-         wounded = c("Healthy", "Wounded", "Healthy", "Wounded"),
-         Type = str_replace_all(Type, "_", " / ")) %>% 
-  arrange(-proportion_disease) %>%    # First sort by val. This sort the dataframe but NOT the factor levels
-  mutate(Type=factor(Type, levels=Type)) %>%   # This trick update the factor levels
-  ggplot(aes(x = Type, y = proportion_disease,fill = health)) +
-  geom_col_pattern(
-    aes(pattern = wounded),
-    pattern_color = "#98a17d", # This
-    pattern_fill = "bisque",
-    pattern_size = 0.2,
-    pattern_alpha = 0.5,
-    pattern_spacing = 0.05
-  ) +
-  scale_pattern_manual(
-    values = c("Wounded" = "stripe", "Healthy" = "none")) +
-  scale_fill_manual(values = c("#97BC62", "#2C5F2D")) +
-  guides(
-    fill = guide_legend(
-      reverse = TRUE,
-      override.aes = list(color = "grey40", pattern = "none")
-    ),
-    pattern = guide_legend(override.aes = list(color = "grey40", fill = NA))
-  ) +
-  theme_bw() +
-  theme(panel.grid = element_blank()) +
-  scale_y_continuous(labels = scales::percent) +
-  labs(x = "Treatment Group", y = "Total proportion of blades with lesions on Day 6",
-       fill = "Blade 1", pattern = "Blade 2")
-plot_exp
-
 
 plot2 <- exp_data %>% 
   group_by(Type) %>% 
@@ -135,11 +101,6 @@ plot_w_sig <- plot3 + stat_pvalue_manual(
 
 plot_w_sig
 #### Export #################################################################### 
-
-ggsave(plot_exp, 
-       file = "Figures/experiment_2025.png", 
-       width = 7, height = 5, units = "in") 
-
 
 ggsave(plot_w_sig, 
        file = "Figures/experiment_2025_v2.png", 
